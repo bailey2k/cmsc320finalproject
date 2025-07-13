@@ -1,0 +1,3077 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>6d85242b4f6a4b2cad50686bd0c49d24</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="an-analysis-of-counter-strike-global-offensive-pro-matches-from-2015-2020-the-golden-age"
+class="cell markdown" id="gvTszlQNzVTY">
+<h1>An analysis of Counter-Strike: Global Offensive pro matches from
+2015-2020 ("The Golden Age")</h1>
+<p><img
+src="https://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6"
+alt="csgo" /></p>
+<h2 id="summer-2025-data-science-project">Summer 2025 Data Science
+Project</h2>
+<p>Contributions:</p>
+<p>Bailey Jones: Project idea, dataset curation/preprocessing, data
+exploration, ML algo design/analysis, prose, formatting, the entire
+project and each of the checkpoints. Cleaned up C1. Did C2, C3, ML
+model.</p>
+<p>Angelo Parker: Dataset curation, designed and completed C1 (CT vs T
+win rate).</p>
+<p>Chris Duong: conclusion and project idea.</p>
+<p>Jiho Lee: dataset curation.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Counter-Strike: Global Offensive was a competitive First Person
+Shooter (FPS) video game that existed from August 2012 to September
+2023, when it was replaced by its successor Counter Strike 2 (CS2).</p>
+<p>Due to the competitive nature of CS:GO, there is data from nearly
+every professional match played on community forums like <a
+href="https://www.hltv.org/">HLTV.org</a>.</p>
+<p>We would like to explore data from professional matches between
+November 2015 to February 2020, which can be described at the golden age
+of CS:GO by some.</p>
+<h2 id="basic-overview-of-csgo">Basic overview of CS:GO</h2>
+<p>In CS:GO, there are two sides: Terrorists (T), and Counter-terrorists
+(CT). Teams will randomly start on either side, CT (Defense) or T
+(Offense), and then alternate after completing 12 rounds.</p>
+<p>To win a round, T side must successfully detonate a bomb on one of
+the two designated sites, or eliminate all members of CT side.
+Inversely, CT side must either defuse a planted T side bomb (or rescue a
+hostage in the Hostage Rescue gamemode) or eliminate all of T side's
+players.</p>
+<p>All players start with a pistol at the start of the game/after death.
+Better weapons and equipment are bought at the start of each round with
+money, with individual performance (kills/assists/bomb defusal or plant,
+etc) granting a player money, as well as round wins that give the entire
+team money. Teams who lose rounds also get a small amount of money that
+increases every round lost in succession to prevent a "snowball" win for
+the other team.</p>
+<p>Most competitive matches will play until one team reaches 16 round
+wins, but some overtime rules may be in place so that if a match is tied
+at match point (15-15), each team will play an additional 3 rounds per
+side until one team gets 4 wins. Ties of 18-18, 21-21, and so forth will
+trigger the overtime process to restart.</p>
+<p>Pro sessions will usually play X amount of matches matches on X maps
+with a best-of-X rule to decide a winner. (X = 1,2,3)</p>
+<h2 id="our-analysis">Our analysis</h2>
+<p>With the introduction out of the way, with the dataset available to
+us we should be able to answer many questions about CS:GO. A common
+utterance in public chat during a match is "Ugh, why are we losing?"
+with the response being "Because this map is so CT-sided it's unfair".
+We would like to answer questions like this and more, such as how
+impactful a player's damage is to their performance.</p>
+</section>
+<section id="data-preprocessing" class="cell markdown"
+id="kSmrvFKMASFT">
+<h1>Data Preprocessing</h1>
+<p>We have chosen to use a pre-scraped from HLTV.com dataset from Kaggle
+(<a
+href="https://www.kaggle.com/datasets/mateusdmachado/csgo-professional-matches/data">CS:GO
+Professional Matches</a>) that includes data from November 2015 to
+February 2020.</p>
+<p>Our dataset includes 4 CSV files, in the forms of economy.csv,
+results.csv, players.csv, and picks.csv.</p>
+<p>After late revision, we will not be including economy.csv in any sort
+of evaluation.</p>
+</section>
+<div class="cell code" id="6ch04uviBnR3">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.stats.proportion <span class="im">import</span> proportions_ztest</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>economy_df <span class="op">=</span> pd.read_csv(<span class="st">&quot;economy.csv&quot;</span>, low_memory<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>results_df <span class="op">=</span> pd.read_csv(<span class="st">&quot;results.csv&quot;</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>players_df <span class="op">=</span> pd.read_csv(<span class="st">&quot;players.csv&quot;</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>picks_df <span class="op">=</span> pd.read_csv(<span class="st">&quot;picks.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="dGmyE0auB_CD">
+<p>Firstly, the players.csv file is massive (around 130MB). There is a
+lot of unnecessary information for what we aim to do, such as individual
+match data for each of the pro games. We can cut a significant portion
+of the fat out by just focusing on the end result of pro matches
+(results after best of 3 games).</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:864}"
+id="hyib3TPWEKGV" data-outputId="a8d7e47e-3bc3-4aa1-8af3-40e9cbae88be">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>essential_columns <span class="op">=</span> [</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;date&#39;</span>, <span class="st">&#39;player_name&#39;</span>, <span class="st">&#39;team&#39;</span>, <span class="st">&#39;opponent&#39;</span>, <span class="st">&#39;country&#39;</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;player_id&#39;</span>, <span class="st">&#39;match_id&#39;</span>, <span class="st">&#39;event_id&#39;</span>, <span class="st">&#39;event_name&#39;</span>, <span class="st">&#39;best_of&#39;</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;kills&#39;</span>, <span class="st">&#39;assists&#39;</span>, <span class="st">&#39;deaths&#39;</span>, <span class="st">&#39;hs&#39;</span>, <span class="st">&#39;flash_assists&#39;</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;kast&#39;</span>, <span class="st">&#39;kddiff&#39;</span>, <span class="st">&#39;adr&#39;</span>, <span class="st">&#39;fkdiff&#39;</span>, <span class="st">&#39;rating&#39;</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;kills_ct&#39;</span>, <span class="st">&#39;deaths_ct&#39;</span>, <span class="st">&#39;kddiff_ct&#39;</span>, <span class="st">&#39;adr_ct&#39;</span>, <span class="st">&#39;kast_ct&#39;</span>, <span class="st">&#39;rating_ct&#39;</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;kills_t&#39;</span>, <span class="st">&#39;deaths_t&#39;</span>, <span class="st">&#39;kddiff_t&#39;</span>, <span class="st">&#39;adr_t&#39;</span>, <span class="st">&#39;kast_t&#39;</span>, <span class="st">&#39;rating_t&#39;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>players_df <span class="op">=</span> players_df[essential_columns].copy()</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>display(players_df)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-a761a09f-eaf1-4ca8-a5b5-9930922f3aa6" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>player_name</th>
+      <th>team</th>
+      <th>opponent</th>
+      <th>country</th>
+      <th>player_id</th>
+      <th>match_id</th>
+      <th>event_id</th>
+      <th>event_name</th>
+      <th>best_of</th>
+      <th>...</th>
+      <th>kddiff_ct</th>
+      <th>adr_ct</th>
+      <th>kast_ct</th>
+      <th>rating_ct</th>
+      <th>kills_t</th>
+      <th>deaths_t</th>
+      <th>kddiff_t</th>
+      <th>adr_t</th>
+      <th>kast_t</th>
+      <th>rating_t</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-02-26</td>
+      <td>Brehze</td>
+      <td>Evil Geniuses</td>
+      <td>Liquid</td>
+      <td>United States</td>
+      <td>9136</td>
+      <td>2339385</td>
+      <td>4901</td>
+      <td>IEM Katowice 2020</td>
+      <td>3</td>
+      <td>...</td>
+      <td>4.0</td>
+      <td>81.6</td>
+      <td>79.2</td>
+      <td>1.10</td>
+      <td>23.0</td>
+      <td>31.0</td>
+      <td>-8.0</td>
+      <td>77.5</td>
+      <td>60.0</td>
+      <td>0.97</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-02-26</td>
+      <td>CeRq</td>
+      <td>Evil Geniuses</td>
+      <td>Liquid</td>
+      <td>Bulgaria</td>
+      <td>11219</td>
+      <td>2339385</td>
+      <td>4901</td>
+      <td>IEM Katowice 2020</td>
+      <td>3</td>
+      <td>...</td>
+      <td>12.0</td>
+      <td>77.4</td>
+      <td>72.9</td>
+      <td>1.16</td>
+      <td>17.0</td>
+      <td>29.0</td>
+      <td>-12.0</td>
+      <td>63.9</td>
+      <td>54.3</td>
+      <td>0.73</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020-02-26</td>
+      <td>EliGE</td>
+      <td>Liquid</td>
+      <td>Evil Geniuses</td>
+      <td>United States</td>
+      <td>8738</td>
+      <td>2339385</td>
+      <td>4901</td>
+      <td>IEM Katowice 2020</td>
+      <td>3</td>
+      <td>...</td>
+      <td>14.0</td>
+      <td>96.6</td>
+      <td>71.4</td>
+      <td>1.39</td>
+      <td>24.0</td>
+      <td>34.0</td>
+      <td>-10.0</td>
+      <td>64.2</td>
+      <td>64.6</td>
+      <td>0.86</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020-02-26</td>
+      <td>Ethan</td>
+      <td>Evil Geniuses</td>
+      <td>Liquid</td>
+      <td>United States</td>
+      <td>10671</td>
+      <td>2339385</td>
+      <td>4901</td>
+      <td>IEM Katowice 2020</td>
+      <td>3</td>
+      <td>...</td>
+      <td>10.0</td>
+      <td>74.0</td>
+      <td>75.0</td>
+      <td>1.11</td>
+      <td>10.0</td>
+      <td>31.0</td>
+      <td>-21.0</td>
+      <td>37.8</td>
+      <td>51.4</td>
+      <td>0.43</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-02-26</td>
+      <td>NAF</td>
+      <td>Liquid</td>
+      <td>Evil Geniuses</td>
+      <td>Canada</td>
+      <td>8520</td>
+      <td>2339385</td>
+      <td>4901</td>
+      <td>IEM Katowice 2020</td>
+      <td>3</td>
+      <td>...</td>
+      <td>11.0</td>
+      <td>96.3</td>
+      <td>85.7</td>
+      <td>1.36</td>
+      <td>24.0</td>
+      <td>29.0</td>
+      <td>-5.0</td>
+      <td>61.0</td>
+      <td>70.8</td>
+      <td>0.87</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>383312</th>
+      <td>2015-10-07</td>
+      <td>kIMERA</td>
+      <td>ExAequo</td>
+      <td>RIP Fonty</td>
+      <td>Italy</td>
+      <td>7607</td>
+      <td>2298497</td>
+      <td>1957</td>
+      <td>Milan Games Week 2015 League by FACEIT</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>383313</th>
+      <td>2015-10-07</td>
+      <td>morphiw0w</td>
+      <td>ExAequo</td>
+      <td>RIP Fonty</td>
+      <td>Italy</td>
+      <td>9752</td>
+      <td>2298497</td>
+      <td>1957</td>
+      <td>Milan Games Week 2015 League by FACEIT</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>383314</th>
+      <td>2015-10-07</td>
+      <td>overfly</td>
+      <td>RIP Fonty</td>
+      <td>ExAequo</td>
+      <td>Italy</td>
+      <td>7698</td>
+      <td>2298497</td>
+      <td>1957</td>
+      <td>Milan Games Week 2015 League by FACEIT</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>383315</th>
+      <td>2015-10-07</td>
+      <td>simozor</td>
+      <td>RIP Fonty</td>
+      <td>ExAequo</td>
+      <td>Italy</td>
+      <td>9753</td>
+      <td>2298497</td>
+      <td>1957</td>
+      <td>Milan Games Week 2015 League by FACEIT</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>383316</th>
+      <td>2015-10-07</td>
+      <td>xullE</td>
+      <td>RIP Fonty</td>
+      <td>ExAequo</td>
+      <td>Italy</td>
+      <td>9754</td>
+      <td>2298497</td>
+      <td>1957</td>
+      <td>Milan Games Week 2015 League by FACEIT</td>
+      <td>2</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>383317 rows × 32 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a761a09f-eaf1-4ca8-a5b5-9930922f3aa6')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a761a09f-eaf1-4ca8-a5b5-9930922f3aa6 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a761a09f-eaf1-4ca8-a5b5-9930922f3aa6');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-fa571e17-a1a9-4f80-8712-10a659f9d970">
+      <button class="colab-df-quickchart" onclick="quickchart('df-fa571e17-a1a9-4f80-8712-10a659f9d970')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-fa571e17-a1a9-4f80-8712-10a659f9d970 button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+  <div id="id_e0ec33c0-5148-4cc7-89ac-a4f8d4ee5d71">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('players_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_e0ec33c0-5148-4cc7-89ac-a4f8d4ee5d71 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('players_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="rUqkH39FGTR9">
+<p>Next, picks.csv has a lot of useless information including some
+columns that look like identifiers for the site. We don't need
+those.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:606}"
+id="YSTu8ZbiGjFT" data-outputId="f07f953e-62b6-4170-f109-2fe45cb829d7">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>essential_columns <span class="op">=</span> [</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;date&#39;</span>, <span class="st">&#39;team_1&#39;</span>, <span class="st">&#39;team_2&#39;</span>, <span class="st">&#39;match_id&#39;</span>, <span class="st">&#39;event_id&#39;</span>, <span class="st">&#39;best_of&#39;</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;t1_removed_1&#39;</span>, <span class="st">&#39;t1_removed_2&#39;</span>, <span class="st">&#39;t1_removed_3&#39;</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;t2_removed_1&#39;</span>, <span class="st">&#39;t2_removed_2&#39;</span>, <span class="st">&#39;t2_removed_3&#39;</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;t1_picked_1&#39;</span>, <span class="st">&#39;t2_picked_1&#39;</span>, <span class="st">&#39;left_over&#39;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>picks_df <span class="op">=</span> picks_df[essential_columns].copy()</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>picks_df[<span class="st">&#39;date&#39;</span>] <span class="op">=</span> pd.to_datetime(picks_df[<span class="st">&#39;date&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>display(picks_df)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-bba5be4b-adcc-418a-aaef-d4d229b291bb" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>team_1</th>
+      <th>team_2</th>
+      <th>match_id</th>
+      <th>event_id</th>
+      <th>best_of</th>
+      <th>t1_removed_1</th>
+      <th>t1_removed_2</th>
+      <th>t1_removed_3</th>
+      <th>t2_removed_1</th>
+      <th>t2_removed_2</th>
+      <th>t2_removed_3</th>
+      <th>t1_picked_1</th>
+      <th>t2_picked_1</th>
+      <th>left_over</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-03-18</td>
+      <td>TeamOne</td>
+      <td>Recon 5</td>
+      <td>2340454</td>
+      <td>5151</td>
+      <td>3</td>
+      <td>Vertigo</td>
+      <td>Train</td>
+      <td>0.0</td>
+      <td>Nuke</td>
+      <td>Overpass</td>
+      <td>0.0</td>
+      <td>Dust2</td>
+      <td>Inferno</td>
+      <td>Mirage</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-03-18</td>
+      <td>Rugratz</td>
+      <td>Bad News Bears</td>
+      <td>2340453</td>
+      <td>5151</td>
+      <td>3</td>
+      <td>Dust2</td>
+      <td>Nuke</td>
+      <td>0.0</td>
+      <td>Mirage</td>
+      <td>Train</td>
+      <td>0.0</td>
+      <td>Vertigo</td>
+      <td>Inferno</td>
+      <td>Overpass</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020-03-18</td>
+      <td>New England Whalers</td>
+      <td>Station7</td>
+      <td>2340461</td>
+      <td>5243</td>
+      <td>1</td>
+      <td>Mirage</td>
+      <td>Dust2</td>
+      <td>Vertigo</td>
+      <td>Nuke</td>
+      <td>Train</td>
+      <td>Overpass</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Inferno</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020-03-17</td>
+      <td>Complexity</td>
+      <td>forZe</td>
+      <td>2340279</td>
+      <td>5226</td>
+      <td>3</td>
+      <td>Inferno</td>
+      <td>Nuke</td>
+      <td>0.0</td>
+      <td>Overpass</td>
+      <td>Vertigo</td>
+      <td>0.0</td>
+      <td>Dust2</td>
+      <td>Train</td>
+      <td>Mirage</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-03-17</td>
+      <td>Singularity</td>
+      <td>Endpoint</td>
+      <td>2340456</td>
+      <td>5247</td>
+      <td>3</td>
+      <td>Train</td>
+      <td>Mirage</td>
+      <td>0.0</td>
+      <td>Nuke</td>
+      <td>Inferno</td>
+      <td>0.0</td>
+      <td>Overpass</td>
+      <td>Vertigo</td>
+      <td>Dust2</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>16030</th>
+      <td>2016-04-12</td>
+      <td>GODSENT</td>
+      <td>Natus Vincere</td>
+      <td>2302059</td>
+      <td>2099</td>
+      <td>1</td>
+      <td>Dust2</td>
+      <td>Cobblestone</td>
+      <td>Mirage</td>
+      <td>Cache</td>
+      <td>Inferno</td>
+      <td>Overpass</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Train</td>
+    </tr>
+    <tr>
+      <th>16031</th>
+      <td>2016-04-12</td>
+      <td>Liquid</td>
+      <td>mousesports</td>
+      <td>2302058</td>
+      <td>2099</td>
+      <td>1</td>
+      <td>Inferno</td>
+      <td>Train</td>
+      <td>Mirage</td>
+      <td>Overpass</td>
+      <td>Cobblestone</td>
+      <td>Cache</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Dust2</td>
+    </tr>
+    <tr>
+      <th>16032</th>
+      <td>2016-04-12</td>
+      <td>Luminosity</td>
+      <td>TYLOO</td>
+      <td>2302057</td>
+      <td>2099</td>
+      <td>1</td>
+      <td>Dust2</td>
+      <td>Cache</td>
+      <td>Inferno</td>
+      <td>Train</td>
+      <td>Overpass</td>
+      <td>Cobblestone</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Mirage</td>
+    </tr>
+    <tr>
+      <th>16033</th>
+      <td>2016-04-12</td>
+      <td>FaZe</td>
+      <td>Virtus.pro</td>
+      <td>2302063</td>
+      <td>2099</td>
+      <td>1</td>
+      <td>Overpass</td>
+      <td>Cobblestone</td>
+      <td>Cache</td>
+      <td>Dust2</td>
+      <td>Inferno</td>
+      <td>Mirage</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Train</td>
+    </tr>
+    <tr>
+      <th>16034</th>
+      <td>2016-04-12</td>
+      <td>Tempo Storm</td>
+      <td>Envy</td>
+      <td>2302064</td>
+      <td>2099</td>
+      <td>1</td>
+      <td>Cache</td>
+      <td>Train</td>
+      <td>Inferno</td>
+      <td>Overpass</td>
+      <td>Mirage</td>
+      <td>Dust2</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>Cobblestone</td>
+    </tr>
+  </tbody>
+</table>
+<p>16035 rows × 15 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-bba5be4b-adcc-418a-aaef-d4d229b291bb')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-bba5be4b-adcc-418a-aaef-d4d229b291bb button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-bba5be4b-adcc-418a-aaef-d4d229b291bb');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-83256123-f134-45bf-8bd5-a4cbe4e8b694">
+      <button class="colab-df-quickchart" onclick="quickchart('df-83256123-f134-45bf-8bd5-a4cbe4e8b694')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-83256123-f134-45bf-8bd5-a4cbe4e8b694 button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+  <div id="id_18108dd5-b795-4caf-a069-f9f92c5f2076">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('picks_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_18108dd5-b795-4caf-a069-f9f92c5f2076 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('picks_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="TCNP7Dm6JwLr">
+<p>Let's repeat again with results.csv and removing unnecessary
+columns.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:419}"
+id="xhR1RUsPLYfW" data-outputId="627a2642-55a9-4888-9461-b8f572f051da">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>essential_columns <span class="op">=</span> [</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;date&#39;</span>, <span class="st">&#39;team_1&#39;</span>, <span class="st">&#39;team_2&#39;</span>, <span class="st">&#39;_map&#39;</span>,</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;ct_1&#39;</span>, <span class="st">&#39;t_1&#39;</span>, <span class="st">&#39;ct_2&#39;</span>, <span class="st">&#39;t_2&#39;</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;map_winner&#39;</span>, <span class="st">&#39;starting_ct&#39;</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;match_winner&#39;</span>, <span class="st">&#39;event_id&#39;</span>, <span class="st">&#39;match_id&#39;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>results_df <span class="op">=</span> results_df[essential_columns].copy()</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>display(results_df)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-a135704c-f2d0-4deb-949f-ff7f344448ef" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>team_1</th>
+      <th>team_2</th>
+      <th>_map</th>
+      <th>ct_1</th>
+      <th>t_1</th>
+      <th>ct_2</th>
+      <th>t_2</th>
+      <th>map_winner</th>
+      <th>starting_ct</th>
+      <th>match_winner</th>
+      <th>event_id</th>
+      <th>match_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-03-18</td>
+      <td>Recon 5</td>
+      <td>TeamOne</td>
+      <td>Dust2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>15</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5151</td>
+      <td>2340454</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-03-18</td>
+      <td>Recon 5</td>
+      <td>TeamOne</td>
+      <td>Inferno</td>
+      <td>8</td>
+      <td>5</td>
+      <td>10</td>
+      <td>6</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5151</td>
+      <td>2340454</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020-03-18</td>
+      <td>New England Whalers</td>
+      <td>Station7</td>
+      <td>Inferno</td>
+      <td>9</td>
+      <td>3</td>
+      <td>10</td>
+      <td>6</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>5243</td>
+      <td>2340461</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020-03-18</td>
+      <td>Rugratz</td>
+      <td>Bad News Bears</td>
+      <td>Inferno</td>
+      <td>0</td>
+      <td>7</td>
+      <td>8</td>
+      <td>8</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5151</td>
+      <td>2340453</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-03-18</td>
+      <td>Rugratz</td>
+      <td>Bad News Bears</td>
+      <td>Vertigo</td>
+      <td>4</td>
+      <td>4</td>
+      <td>11</td>
+      <td>5</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5151</td>
+      <td>2340453</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>45768</th>
+      <td>2015-11-05</td>
+      <td>G2</td>
+      <td>E-frag.net</td>
+      <td>Inferno</td>
+      <td>8</td>
+      <td>5</td>
+      <td>9</td>
+      <td>7</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1970</td>
+      <td>2299059</td>
+    </tr>
+    <tr>
+      <th>45769</th>
+      <td>2015-11-05</td>
+      <td>G2</td>
+      <td>E-frag.net</td>
+      <td>Dust2</td>
+      <td>10</td>
+      <td>6</td>
+      <td>8</td>
+      <td>5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1970</td>
+      <td>2299059</td>
+    </tr>
+    <tr>
+      <th>45770</th>
+      <td>2015-11-04</td>
+      <td>CLG</td>
+      <td>Liquid</td>
+      <td>Inferno</td>
+      <td>7</td>
+      <td>9</td>
+      <td>4</td>
+      <td>8</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1934</td>
+      <td>2299011</td>
+    </tr>
+    <tr>
+      <th>45771</th>
+      <td>2015-11-03</td>
+      <td>NiP</td>
+      <td>Dignitas</td>
+      <td>Train</td>
+      <td>4</td>
+      <td>12</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1934</td>
+      <td>2299001</td>
+    </tr>
+    <tr>
+      <th>45772</th>
+      <td>2015-11-03</td>
+      <td>NiP</td>
+      <td>Envy</td>
+      <td>Cobblestone</td>
+      <td>4</td>
+      <td>12</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1934</td>
+      <td>2299003</td>
+    </tr>
+  </tbody>
+</table>
+<p>45773 rows × 13 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a135704c-f2d0-4deb-949f-ff7f344448ef')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a135704c-f2d0-4deb-949f-ff7f344448ef button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a135704c-f2d0-4deb-949f-ff7f344448ef');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-a92a26ae-9d91-4125-9c5e-d60e5b2a0089">
+      <button class="colab-df-quickchart" onclick="quickchart('df-a92a26ae-9d91-4125-9c5e-d60e5b2a0089')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-a92a26ae-9d91-4125-9c5e-d60e5b2a0089 button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+  <div id="id_c475a53b-1876-4a94-ac83-99f37203164a">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('results_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_c475a53b-1876-4a94-ac83-99f37203164a button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('results_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="c1-ct-vs-t-round-win-rate-by-map" class="cell markdown"
+id="DQJpQPunx0nc">
+<h1>C1: CT vs. T Round Win Rate By Map</h1>
+</section>
+<div class="cell markdown" id="3EF7R9UioeRe">
+<p>In CS:GO, there are two sides: Terrorists (T), and Counterterrorists
+(CT). Teams will start on one side, CT (Defense) or T (Offense), and
+then alternate after completing 12 rounds.</p>
+<p>Each map is structured differently, so there may be inherent
+advantages for a certain side given a map's layout. One could assume
+that, given such a competitive game, all maps would have balanced win
+rates and it wouldn't matter whether a team was on the CT side or the T
+side.</p>
+<p>The data found in results.csv might show a different picture. We will
+attempt to examine total rounds won by both CT and T sides on every map,
+and calculate win rates over time (the data is from 2015-2020). The
+results will show whether maps have balanced win rates, or whether
+certain maps offer implicit advantages when it comes to what side each
+team is on.</p>
+</div>
+<div class="cell markdown" id="il-ZHxFdq4Rg">
+<p>To test for statistical significance, we will use a 2-proportion
+Z-test with a null hypothesis of CT win rate = 50% and an alternative
+hypothesis of CT win rate ≠ 50%. This will test whether certain maps
+have implicit advantages for CT or T sides.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="gzFN58SrlBeY" data-outputId="801723fb-7925-4d5b-8bc9-9c50faf2677e">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2-Proportion-Z-Test</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Null Hypothesis: CT win rate = 50%</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternative Hypothesis: CT win rate ≠ 50%</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Also shows graph of rolling average CT win rates over time per each map (rolling avg window: 500 rounds)</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>results_df[<span class="st">&#39;date&#39;</span>] <span class="op">=</span> pd.to_datetime(results_df[<span class="st">&#39;date&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>results_df <span class="op">=</span> results_df.dropna(subset<span class="op">=</span>[<span class="st">&#39;date&#39;</span>, <span class="st">&#39;_map&#39;</span>])</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>ct_1 <span class="op">=</span> results_df[[<span class="st">&#39;date&#39;</span>, <span class="st">&#39;_map&#39;</span>, <span class="st">&#39;ct_1&#39;</span>]].rename(columns<span class="op">=</span>{<span class="st">&#39;ct_1&#39;</span>: <span class="st">&#39;ct&#39;</span>})</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>ct_2 <span class="op">=</span> results_df[[<span class="st">&#39;date&#39;</span>, <span class="st">&#39;_map&#39;</span>, <span class="st">&#39;ct_2&#39;</span>]].rename(columns<span class="op">=</span>{<span class="st">&#39;ct_2&#39;</span>: <span class="st">&#39;ct&#39;</span>})</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>t_1 <span class="op">=</span> results_df[[<span class="st">&#39;date&#39;</span>, <span class="st">&#39;_map&#39;</span>, <span class="st">&#39;t_1&#39;</span>]].rename(columns<span class="op">=</span>{<span class="st">&#39;t_1&#39;</span>: <span class="st">&#39;t&#39;</span>})</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>t_2 <span class="op">=</span> results_df[[<span class="st">&#39;date&#39;</span>, <span class="st">&#39;_map&#39;</span>, <span class="st">&#39;t_2&#39;</span>]].rename(columns<span class="op">=</span>{<span class="st">&#39;t_2&#39;</span>: <span class="st">&#39;t&#39;</span>})</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>ct <span class="op">=</span> pd.concat([ct_1, ct_2]).sort_values(<span class="st">&#39;date&#39;</span>).set_index(<span class="st">&#39;date&#39;</span>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> pd.concat([t_1, t_2]).sort_values(<span class="st">&#39;date&#39;</span>).set_index(<span class="st">&#39;date&#39;</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>maps <span class="op">=</span> [<span class="st">&#39;Cache&#39;</span>, <span class="st">&#39;Cobblestone&#39;</span>, <span class="st">&#39;Dust2&#39;</span>, <span class="st">&#39;Inferno&#39;</span>, <span class="st">&#39;Mirage&#39;</span>, <span class="st">&#39;Nuke&#39;</span>, <span class="st">&#39;Overpass&#39;</span>, <span class="st">&#39;Train&#39;</span>, <span class="st">&#39;Vertigo&#39;</span>]</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>rolling_ct_avg <span class="op">=</span> {}</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>hypothesis_results <span class="op">=</span> []</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> map_name <span class="kw">in</span> maps:</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    ct_map <span class="op">=</span> ct[ct[<span class="st">&#39;_map&#39;</span>] <span class="op">==</span> map_name]</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    t_map <span class="op">=</span> t[t[<span class="st">&#39;_map&#39;</span>] <span class="op">==</span> map_name]</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    ct_avg <span class="op">=</span> ct_map[<span class="st">&#39;ct&#39;</span>].rolling(window<span class="op">=</span><span class="dv">500</span>, min_periods<span class="op">=</span><span class="dv">20</span>, center<span class="op">=</span><span class="va">True</span>).<span class="bu">sum</span>()</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    t_avg <span class="op">=</span> t_map[<span class="st">&#39;t&#39;</span>].rolling(window<span class="op">=</span><span class="dv">500</span>, min_periods<span class="op">=</span><span class="dv">20</span>, center<span class="op">=</span><span class="va">True</span>).<span class="bu">sum</span>()</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    win_pct <span class="op">=</span> (ct_avg <span class="op">/</span> (ct_avg <span class="op">+</span> t_avg)) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    rolling_ct_avg[map_name] <span class="op">=</span> win_pct</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    ct_total <span class="op">=</span> ct_map[<span class="st">&#39;ct&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    t_total <span class="op">=</span> t_map[<span class="st">&#39;t&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    z_stat, p_val <span class="op">=</span> proportions_ztest([ct_total, t_total], [ct_total <span class="op">+</span> t_total, ct_total <span class="op">+</span> t_total])</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    hypothesis_results.append({</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Map&#39;</span>: map_name,</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;CT Round Wins&#39;</span>: ct_total,</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;T Round Wins&#39;</span>: t_total,</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;CT Round Win Rate Percentage&#39;</span>: <span class="bu">round</span>((ct_total <span class="op">/</span> (ct_total <span class="op">+</span> t_total)) <span class="op">*</span> <span class="dv">100</span>, <span class="dv">2</span>),</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Z-Statistic&#39;</span>: <span class="bu">round</span>(z_stat, <span class="dv">3</span>),</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;p-value&#39;</span>: p_val,</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Significant? &#39;</span>: <span class="st">&#39;Yes&#39;</span> <span class="cf">if</span> p_val <span class="op">&lt;</span> <span class="fl">0.05</span> <span class="cf">else</span> <span class="st">&#39;No&#39;</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>hypothesis_df <span class="op">=</span> pd.DataFrame(hypothesis_results).sort_values(<span class="st">&#39;CT Round Win Rate Percentage&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>display(hypothesis_df)</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">7</span>))</span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> map_name, win_pct_data <span class="kw">in</span> rolling_ct_avg.items():</span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>    plt.plot(win_pct_data.index, win_pct_data.values, label<span class="op">=</span>map_name, linewidth<span class="op">=</span><span class="fl">1.5</span>, alpha<span class="op">=</span><span class="fl">0.9</span>)</span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>plt.axhline(<span class="dv">50</span>, color<span class="op">=</span><span class="st">&#39;black&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, linewidth<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Date&#39;</span>)</span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;CT Round Win Percentage&#39;</span>)</span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;CT Round Win Percentage Over Time by Map&#39;</span>)</span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&#39;Map&#39;</span>, loc<span class="op">=</span><span class="st">&#39;center left&#39;</span>, bbox_to_anchor<span class="op">=</span>(<span class="dv">1</span>, <span class="fl">0.5</span>))</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-b39a24a1-4a54-4765-b497-82bc5dd3f736" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Map</th>
+      <th>CT Round Wins</th>
+      <th>T Round Wins</th>
+      <th>CT Round Win Rate Percentage</th>
+      <th>Z-Statistic</th>
+      <th>p-value</th>
+      <th>Significant?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5</th>
+      <td>Nuke</td>
+      <td>58561</td>
+      <td>48102</td>
+      <td>54.90</td>
+      <td>45.290</td>
+      <td>0.000000e+00</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Train</td>
+      <td>90147</td>
+      <td>76095</td>
+      <td>54.23</td>
+      <td>48.740</td>
+      <td>0.000000e+00</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Overpass</td>
+      <td>75508</td>
+      <td>67366</td>
+      <td>52.85</td>
+      <td>30.463</td>
+      <td>8.113994e-204</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Mirage</td>
+      <td>119334</td>
+      <td>111006</td>
+      <td>51.81</td>
+      <td>24.540</td>
+      <td>5.557588e-133</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Inferno</td>
+      <td>93465</td>
+      <td>96862</td>
+      <td>49.11</td>
+      <td>-11.012</td>
+      <td>3.350468e-28</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Cobblestone</td>
+      <td>43390</td>
+      <td>45332</td>
+      <td>48.91</td>
+      <td>-9.220</td>
+      <td>2.960643e-20</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Dust2</td>
+      <td>50899</td>
+      <td>54195</td>
+      <td>48.43</td>
+      <td>-14.378</td>
+      <td>7.061988e-47</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Vertigo</td>
+      <td>7559</td>
+      <td>8130</td>
+      <td>48.18</td>
+      <td>-6.447</td>
+      <td>1.141327e-10</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Cache</td>
+      <td>55647</td>
+      <td>61750</td>
+      <td>47.40</td>
+      <td>-25.190</td>
+      <td>5.142636e-140</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-b39a24a1-4a54-4765-b497-82bc5dd3f736')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-b39a24a1-4a54-4765-b497-82bc5dd3f736 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-b39a24a1-4a54-4765-b497-82bc5dd3f736');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-88bb19b0-9832-4a11-84d3-497607fa6b02">
+      <button class="colab-df-quickchart" onclick="quickchart('df-88bb19b0-9832-4a11-84d3-497607fa6b02')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-88bb19b0-9832-4a11-84d3-497607fa6b02 button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+  <div id="id_f7b9b8f9-7dd2-47e9-a660-c35e7d0fa252">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('hypothesis_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_f7b9b8f9-7dd2-47e9-a660-c35e7d0fa252 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('hypothesis_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_161866e7f06f48e68018f4039a064861/397fd156540b680eab41d32963e3be7ca1aad7ef.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="UIKO0XUFxG5t">
+<p>After analysis, we can see that it is statistically significant that
+every map has had an implicit advantage towards a certain side at any
+given moment, some more than others.</p>
+<p>For example, we can conclude that teams have statistically been more
+likely to win rounds if they are on the CT side on the map Nuke.
+Additionally, we can conclude that teams statistically have been likely
+to win rounds if they are on the T side on the map Cache.</p>
+<p>CS:GO constantly rotated maps in and out of competitive play to avoid
+stagnation as well as to create major overhauls. This explains why some
+lines start later than others (in Cache's case) or there is a flat line
+for some periods (Dust2/Inferno). There simply just weren't games being
+played professionally on these maps during these times.</p>
+<p>Due to CS:GO's nature as a video game that was constantly adjusted
+with balance changes, we can see that there are non-insignificant dips
+at certain points in time. For example, in February 2017, Valve created
+a new version of Inferno that significantly changed features of the map
+in order to try and balance it. Players naturally develop new strategies
+over time to account for changes made by developers. A greater look at
+this history can be seen here: <a
+href="https://youtu.be/vGtCJFSiSpE?si=G5iIu59MBcig6TCW">The History of
+Inferno Banana Control</a>.</p>
+</div>
+<section id="c2-has-starting-side-ever-mattered-for-match-wins"
+class="cell markdown" id="l46F1u71XO-v">
+<h1>C2: Has starting side ever mattered for match wins?</h1>
+<p>As an extension of the previous result of CT vs T round win rate, we
+would like to determine whether which side the team starts on has an
+impact on whether or not they win the entire match.</p>
+<p>After the 12th round, players swap sides from either T or CT and
+continue the game from scratch. All money is wiped and it is effectively
+like the game beginning again from round 1. Intuitively, the side you
+randomly start on should not have an effect on who ultimately wins the
+match, but we would like to explore this possibility.</p>
+</section>
+<div class="cell code" id="bJXF0qOIzw03">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>results_df[<span class="st">&#39;ct_start_win&#39;</span>] <span class="op">=</span> results_df[<span class="st">&#39;starting_ct&#39;</span>] <span class="op">==</span> results_df[<span class="st">&#39;map_winner&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="ATvSc-IfzyZ4">
+<p>We would like to map out any possible changes in CT start team win
+trends over time. As discussed previously, reworks to maps would aim to
+squash major discrepencies like this.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="G6Nizdouz7O_" data-outputId="9a9fe65a-03a1-4e11-ad65-662962217336">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>rolling_window <span class="op">=</span> <span class="dv">1500</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">7</span>))</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>match_results <span class="op">=</span> []</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> map_name <span class="kw">in</span> maps:</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  map_df <span class="op">=</span> results_df[results_df[<span class="st">&#39;_map&#39;</span>] <span class="op">==</span> map_name].sort_values(<span class="st">&#39;date&#39;</span>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  ct_wins <span class="op">=</span> (map_df[<span class="st">&#39;ct_start_win&#39;</span>].<span class="bu">sum</span>())</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  total <span class="op">=</span> <span class="bu">len</span>(map_df)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  z_stat, p_val <span class="op">=</span> proportions_ztest([ct_wins, total <span class="op">-</span> ct_wins], [total, total])</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  win_rate <span class="op">=</span> map_df[<span class="st">&#39;ct_start_win&#39;</span>].rolling(window<span class="op">=</span>rolling_window, min_periods<span class="op">=</span><span class="dv">20</span>, center<span class="op">=</span><span class="va">True</span>).mean()</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  match_results.append({</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;Map&#39;</span>: map_name,</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;CT Start Wins&#39;</span>: ct_wins,</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;Total Matches&#39;</span>: total,</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;CT Start Win Rate Percentage&#39;</span>: <span class="bu">round</span>((ct_wins <span class="op">/</span> total) <span class="op">*</span> <span class="dv">100</span>, <span class="dv">2</span>),</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>  plt.plot(map_df[<span class="st">&#39;date&#39;</span>], win_rate <span class="op">*</span> <span class="dv">100</span>, label<span class="op">=</span>map_name, alpha<span class="op">=</span><span class="fl">0.9</span>)</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>ct_match_df <span class="op">=</span> pd.DataFrame(match_results).sort_values(<span class="st">&#39;CT Start Win Rate Percentage&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>display(ct_match_df)</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>plt.axhline(<span class="dv">50</span>, color<span class="op">=</span><span class="st">&#39;gray&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Date&quot;</span>)</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;CT-starting Side Team Win Rate (%)&quot;</span>)</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;CT-Starting Side Team Match Win Rate (Rolling </span><span class="sc">{</span>rolling_window<span class="sc">}</span><span class="ss"> Matches)&quot;</span>)</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&#39;Map&#39;</span>, loc<span class="op">=</span><span class="st">&#39;center left&#39;</span>, bbox_to_anchor<span class="op">=</span>(<span class="dv">1</span>, <span class="fl">0.5</span>))</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-a57aa4e4-e392-41f0-a7da-21008d0377d6" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Map</th>
+      <th>CT Start Wins</th>
+      <th>Total Matches</th>
+      <th>CT Start Win Rate Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Cobblestone</td>
+      <td>1828</td>
+      <td>3513</td>
+      <td>52.04</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Inferno</td>
+      <td>3864</td>
+      <td>7485</td>
+      <td>51.62</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Cache</td>
+      <td>2361</td>
+      <td>4613</td>
+      <td>51.18</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Vertigo</td>
+      <td>310</td>
+      <td>609</td>
+      <td>50.90</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Dust2</td>
+      <td>2093</td>
+      <td>4114</td>
+      <td>50.88</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Mirage</td>
+      <td>4585</td>
+      <td>9021</td>
+      <td>50.83</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Nuke</td>
+      <td>2114</td>
+      <td>4206</td>
+      <td>50.26</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Train</td>
+      <td>3280</td>
+      <td>6566</td>
+      <td>49.95</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Overpass</td>
+      <td>2786</td>
+      <td>5625</td>
+      <td>49.53</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a57aa4e4-e392-41f0-a7da-21008d0377d6')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a57aa4e4-e392-41f0-a7da-21008d0377d6 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a57aa4e4-e392-41f0-a7da-21008d0377d6');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    <div id="df-9887d731-32dc-42c7-9f17-2347726c0179">
+      <button class="colab-df-quickchart" onclick="quickchart('df-9887d731-32dc-42c7-9f17-2347726c0179')"
+                title="Suggest charts"
+                style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+      </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+      <script>
+        async function quickchart(key) {
+          const quickchartButtonEl =
+            document.querySelector('#' + key + ' button');
+          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+          quickchartButtonEl.classList.add('colab-df-spinner');
+          try {
+            const charts = await google.colab.kernel.invokeFunction(
+                'suggestCharts', [key], {});
+          } catch (error) {
+            console.error('Error during call to suggestCharts:', error);
+          }
+          quickchartButtonEl.classList.remove('colab-df-spinner');
+          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+        }
+        (() => {
+          let quickchartButtonEl =
+            document.querySelector('#df-9887d731-32dc-42c7-9f17-2347726c0179 button');
+          quickchartButtonEl.style.display =
+            google.colab.kernel.accessAllowed ? 'block' : 'none';
+        })();
+      </script>
+    </div>
+
+  <div id="id_59419d5f-c95c-45a0-a460-79134bc33850">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('ct_match_df')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_59419d5f-c95c-45a0-a460-79134bc33850 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('ct_match_df');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_161866e7f06f48e68018f4039a064861/c97c29bb1c5a43cf6c2474f3e76e9ad0cdc9fc61.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="lTLdTjKVz-_H">
+<p>Interestingly, we reach different results for this than from the
+round win mapping. It appears that some maps are ultimately CT sided for
+overall match wins within the timeframe of our dataset.</p>
+<p>Cobblestone, Inferno, Cache, and Mirage all show statistically
+significant CT-start advantage, while the rest do not.</p>
+<p>Inferno, after receiving a rework in 2017, almost immediately jumped
+up in CT starting wins after teams figured out new strategies like
+mentioned previously.</p>
+<p>A very early prediction is that this can be caused by round 1 and 2
+of the match (pistol round + 1) heavily favor CT side due to the longer
+range engagements on these maps.</p>
+<p>This prediction could be supported by the fact that Cobblestone is
+such an outlier here, with its engagements being some of the longest in
+the game by distance.</p>
+</div>
+<section id="c3-graphing-pro-player-adr-vs-rating" class="cell markdown"
+id="BA0w9UEU0BKK">
+<h1>C3: Graphing Pro Player ADR vs Rating</h1>
+<p>Average damage per round (ADR) is a pretty handy way of determining
+the impact an individual player had on the outcome of the match.</p>
+<p>There are many ways of doing damage to your opponents in CS:GO.
+Grenade damage, direct gun damage, etc. You might lose an engagement to
+someone that you never even saw, but you could have also damaged them
+with a well placed Frag or Molotov around a corner, leading your
+surviving teammates to have an easier time taking them down.</p>
+<p>Rating is a much more involved calculation of player impact in a
+match which you can read about here: <a
+href="https://www.hltv.org/news/20695/introducing-rating-20">Introducing
+Rating 2.0</a>.</p>
+<p>As of data collection date, the HLTV.org site used a measure of kill
+rating, survival rating, KAST rating, impact rating, and damage
+rating.</p>
+<p>In simpler terms, 1.00 rating is average. Anything above is above
+average performance, and vice versa.</p>
+<p>We want to try and see if there is a correlation between these two
+metrics of player performance.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:582}"
+id="KJ_ztcMG0Gzq" data-outputId="217fffd1-c006-4806-b2c5-b51c62128782">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.scatter(players_df[<span class="st">&#39;adr&#39;</span>], players_df[<span class="st">&#39;rating&#39;</span>], alpha<span class="op">=</span><span class="fl">0.6</span>, s<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Pro Player ADR vs Rating&quot;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;ADR (Average Damage per Round)&quot;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Rating&quot;</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>correlation <span class="op">=</span> players_df[<span class="st">&#39;adr&#39;</span>].corr(players_df[<span class="st">&#39;rating&#39;</span>])</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>display(<span class="ss">f&quot;Pearson correlation of ADR vs Rating: </span><span class="sc">{</span>correlation<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_161866e7f06f48e68018f4039a064861/1da8cd9b360de5fc692bf4b0815775f1939e586f.png" /></p>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;string&quot;</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell markdown" id="Hj0BrCGH0Kjw">
+<p>With the sheer number of data points (over 300000), we can almost
+certainly conclude that there is a strong correlation between HLTV's in
+depth Rating system and the basic ADR number.</p>
+<p>In fact, it is so strong that it almost seems unnecessary to do
+anything more than observe ADR to measure player performance.</p>
+</div>
+<section id="predicting-map-picks-with-machine-learning"
+class="cell markdown" id="is8f1uSpFuV9">
+<h1>Predicting Map Picks with Machine Learning</h1>
+<p>In a match of pro CS:GO, at the start, teams will perform a short
+veto process. At any point in time, up to the developer Valve's
+choosing, 7 maps will usually be in the "active pool", with some taken
+out or put back in to make changes and avoid the game from being
+stale.</p>
+<p>Of this "pool", teams will ban two maps that they do not want to play
+on and pick one of their choice. This leaves one leftover map. Usually
+in a best of 3 match, the 2 picked maps and the leftover will be played
+until either team wins.</p>
+<p>With that follows an interesting observation to be made. With two
+bans, you'd like to ban maps that you know your team struggles on or you
+know the opposing team dominates at. You'd pick the map you are best at.
+But the leftover map shows a mutual indifference from either team
+towards a certain map.</p>
+<p>So, can we predict what this leftover map will be just off of the
+team's history? Let's see. We will use Random Forest Classification to
+try.</p>
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:624}"
+id="S8hlUEhuQ2j4" data-outputId="2886f51f-e354-41f9-b27e-add907032a87">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, ConfusionMatrixDisplay, confusion_matrix</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># choose all columns but date and left_over</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> picks_df.drop(columns<span class="op">=</span>[<span class="st">&#39;left_over&#39;</span>, <span class="st">&#39;date&#39;</span>, <span class="st">&#39;match_id&#39;</span>, <span class="st">&#39;event_id&#39;</span>])</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co"># one hot encoding</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> pd.get_dummies(X)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> picks_df[<span class="st">&#39;left_over&#39;</span>]</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.25</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestClassifier()</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a><span class="co"># get the top feature importances</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>importances <span class="op">=</span> model.feature_importances_</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>indices <span class="op">=</span> np.argsort(importances)[<span class="op">-</span><span class="dv">10</span>:]</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>top_feats <span class="op">=</span> X.columns[indices]</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>top_vals <span class="op">=</span> importances[indices]</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a><span class="co"># plot it</span></span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>plt.barh(top_feats, top_vals)</span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Feature Importance&quot;</span>)</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Top 10 Feature Importances&quot;</span>)</span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a><span class="co"># show accuracy of the model</span></span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Random forest accuracy: </span><span class="sc">{</span>accuracy<span class="sc">:.2%}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_161866e7f06f48e68018f4039a064861/fc50fe5595dbd6c73dcaa649777a71e5494b12fb.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Random forest accuracy: 74.31%
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="mQW85hgFUMgR">
+<p>To interpret the results of this, on the y-axis labels, t1/2 means
+the team who picks in either first or second. removed_1/2 is their first
+or second ban pick. The map name is self-explanatory.</p>
+<p>So as a conclusion, notice that our model is quite good with an
+accuracy of 74.31%. We see that interestingly, Mirage favors heavily on
+this list. This is probably due to Mirage's staple status as a map in
+the game. Most teams enjoy playing and are good at this map, leading to
+the fact that if it is banned 4th, we probably can assume what the
+leftover map is with great accuracy.</p>
+</div>
+<section id="conclusion" class="cell markdown" id="p9iqZPOxUZwE">
+<h1>Conclusion</h1>
+<p>Our group was determined to understand what makes CS:GO matches
+competitive and what factors help predict outcomes when in a game. Since
+not everyone knows CS:GO as a pro gamer would understand, we started by
+explaining the basics how Counter-Terrorist and Terrorist sides work,
+what teams are trying to accomplish each round, and how the in-game
+economy functions. This quick briefing of the game helps people
+understand everything that follows for our group findings.</p>
+<h3 id="key-findings">Key Findings</h3>
+<p>Our statistical analysis revealed significant map-specific imbalances
+in CS:GO. The two-proportion Z-tests demonstrated that Nuke and Train
+exhibit substantial Counter-Terrorist advantages, with CT win rates of
+55-58% (p &lt; 0.001). This confirms a bias from the community about
+these maps' defensive nature. One the other hand Cache showed a clear
+trend toward a 50/50 split during 2018-2019, indicating a map balancing
+efforts by from Valve.</p>
+<p>The computing the data provided valuable insights into predictive
+modeling in esports. Our Random Forest classifier achieved 75% accuracy
+in predicting final map selections from ban/pick phases, indicating that
+draft strategies contain substantial information about team intentions
+and capabilities. There was strong correlation (r = 0.880) between
+Average Damage per Round and HLTV Rating confirms ADR as a reliable
+performance metric for player evaluation.</p>
+<h3 id="implications-for-the-csgo-community">Implications for the CS:GO
+Community</h3>
+<p>These findings have practical applications for teams, analysts, and
+tournament organizers. Teams can leverage map-specific win rate data.
+This helps with particularly prioritizing CT-favored maps when they
+exceed on defense. The meta trends suggests that analysts should pay
+closer attention to early-round bans and picks as indicators of team
+strategy and confidence.</p>
+<h3 id="limitations-and-future-work">Limitations and Future Work</h3>
+<p>Several limitations constrain our conclusions. The economic analysis
+remains incomplete, representing a significant gap given the importance
+of in-game economy in CS:GO strategy. Our dataset's temporal scope may
+not capture recent meta shifts, and we focused primarily on tier-one
+professional matches, potentially limiting generalizability to other
+competitive levels.</p>
+<p>Future research should integrate round-by-round economic data to
+build more comprehensive predictive models. Additionally, investigating
+how teams might adapt their strategies based on these statistical
+insights could bridge the gap between data science and practical
+competitive application. Expanding the analysis to include communication
+patterns and in-game decision-making would provide even richer insights
+into what drives success in professional CS:GO.</p>
+<p>This tutorial demonstrates how data science techniques can illuminate
+the strategic depth of competitive gaming, providing both statistical
+rigor and practical insights for the esports community.</p>
+</section>
+</body>
+</html>
