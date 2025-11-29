@@ -8,4 +8,6 @@ We want to create an extensive look at pro CSGO matches from the "golden age" of
 
 [Dataset](https://www.kaggle.com/datasets/mateusdmachado/csgo-professional-matches/data)
 
+The finalized project can be found at [bailey2k.github.io](https://bailey2k.github.io). This formatting was required for submission.
+
 Note: players.csv too large to add to GitHub, recommended to download from Kaggle and work locally.
